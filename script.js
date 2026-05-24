@@ -1,4 +1,4 @@
-const FECHA_CORRECTA = { dia: 22, mes:05 , anio: 03 };
+const FECHA_CORRECTA = { dia: 05, mes:03, anio: 98 };
 const RANGO = { dia: { min: 0, max: 31 }, mes: { min: 0, max: 12 }, anio: { min: 0, max: 99 } };
 const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
@@ -9,7 +9,7 @@ const closeBtn = $('#close-btn');
 
 // Fecha de Nacimiento: 10 de Febrero de 2005
 // Nota: En JS los meses van de 0 a 11 (Enero=0, Febrero=1)
-const FECHA_NACIMIENTO = new Date(2003,04,22, 0, 0, 0);
+const FECHA_NACIMIENTO = new Date(1998,02,05, 0, 0, 0);
 
 const state = { dia: 0, mes: 0, anio: 0 };
 
